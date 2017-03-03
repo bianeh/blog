@@ -1,0 +1,33 @@
+*{
+		padding: 0;
+		margin: 0;
+	}
+	input{
+		width: 175px;
+	}
+	body{
+		background: #006699;
+	}
+	.lab{
+		float: left;
+		width: 100px;
+		text-align: right;
+	}
+	.val{
+		float: left;
+		width: 180px;
+	}
+	.clear{ 
+		clear:both;
+	} 
+	.form{
+		margin-top: 10px;
+	}
+	.content{
+		width: 300px;
+		margin: 0 auto;
+		margin-top: 200px;
+	}
+	.button{
+		margin-left: 100px;
+	}
