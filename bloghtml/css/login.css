@@ -27,7 +27,7 @@
 		margin-top: 10px;
 	}
 	.main{
-		height: 70%;
+		height: 80%;
 	}
 	.content{
 		width: 300px;
@@ -37,12 +37,12 @@
 		margin-left: 100px;
 	}
 	.footer{
-		height: 15%;
+		height: 10%;
 		background: #666666;
 	}
 	.header 
 	{
-		height: 15%;
+		height: 10%;
 		background: #666666;
 	}
 	.hig{
@@ -50,11 +50,11 @@
 	}
 	.copyright{
 		text-align: center;
-		padding-top:4%;
+		padding-top:0%;
 		color:#FFFFFF;
 	}
 	.headercontent{
-        padding-top: 4%;
+        padding-top: 1%;
         font-size: 22px;
         color: #FFFFFF;
         font-weight: bold;
