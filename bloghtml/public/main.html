@@ -10,10 +10,18 @@
 	.main{
 		margin-top: 30px;
 	}
+	.search{
+		margin-bottom: 40px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		background: #999999;
+	}
 	</style>
 </head>
 <body>
 <div class="col-sm-12 main">
+<div class="search">
 <form class="form-inline" role="form">
 	<div class="form-group">
 		<label for="name">名称</label>
@@ -28,6 +36,8 @@
 	
 	<button type="submit" class="btn btn-default">搜索</button>
 </form>
+</div>
+<div>
 <table class="table">
 	<thead>
 		<tr>
@@ -122,6 +132,7 @@
 		</tr>
 	</tbody>
 </table>
+</div>
 <ul class="pagination">
     <li><a href="#">&laquo;</a></li>
     <li class="active"><a href="#">1</a></li>
