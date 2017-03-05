@@ -7,38 +7,58 @@
   <link rel="stylesheet" href="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">  
   <script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $(".titlewd").click(function(){
+       $(this).next().toggle();
+    });
+  })
+
+</script>
+  <style type="text/css">
+     .title{
+      margin-top: 20px;
+     }
+     .list{
+      display: none;
+     }
+     .default{
+      display: block;
+     }
+  </style>
 </head>
 <body>
-
-<div class="news">
-  <label>sssss</label>
-  <ul>
-    <li>vnewsne</li>
-    <li>newsnewsn</li>
-    <li>newsnewsnews</li>
-    <li>newsnews</li>
-    <li>news</li>
+<div class="container">
+<div class="title">
+  <div class="titlewd"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;<label>文章管理</label></div>
+  <div class="list default"><ul>
+    <li>添加文章</li>
+    <li>文章列表</li>
+    <li>草稿信息</li>
+    <li>垃圾箱</li>
+  </ul></div>
+</div>
+<div class="title">
+  <div class="titlewd"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;<label>用户管理</label></div>
+  <div class="list"><ul>
+    <li>用户列表</li>
+    <li>禁用用户</li>
+  </ul></div>
+</div>
+<div class="title">
+  <div class="titlewd"><span class="glyphicon glyphicon-comment"></span>&nbsp;&nbsp;<label>评论管理</label></div>
+  <div class="list"><ul>
+    <li>评论列表</li>
   </ul>
 </div>
-<div class="news">
-  <label>sssss</label>
-  <ul>
-    <li>news</li>
-    <li>news</li>
-    <li>news</li>
-    <li>news</li>
-    <li>newsnews</li>
-  </ul>
 </div>
-<div class="news">
-  <label>sssss</label>
-  <ul>
-    <li>news</li>
-    <li>news</li>
-    <li>news</li>
-    <li>news</li>
-    <li>news</li>
-  </ul>
+<div class="title">
+  <div class="titlewd"><span class="glyphicon glyphicon-globe"></span>&nbsp;&nbsp;<label>系统设置</label></div>
+  <div class="list"><ul>
+    <li>系统参数</li>
+    <li>系统图片</li>
+  </ul></div>
+</div>
 </div>
 </body>
 </html>
